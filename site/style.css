@@ -1,0 +1,71 @@
+body{
+	background-color: white;
+	font-family: arial;
+}
+
+/* This is the heading of the page*/
+
+h1{
+	text-align: center;
+	margin: 30px 0px 100px 0px;
+	font-size: 75% larger;
+}
+
+/* These are the headings from the colored boxes inside of each grey box */
+h2{
+	width: 150px;
+	margin-top: 0px;
+	border-top: : 0px solid black;
+	border-bottom: 1.5px solid black;
+	border-left: 1.5px solid black;
+	text-align: center;
+	font-size: 16px;
+}	
+
+
+/* This is the text inside of the grey box*/
+
+p{
+	font-size:13px;
+	margin: 40px 10px 5px 5px;
+	padding: 5px 15px 5px 5px ;
+	font-weight: bold;
+}
+
+/* This is the grey box */
+div {
+	width: 350px;
+	border-color: black;
+	border-style: solid;
+	background-color: darkgrey;	
+	float: left;
+	margin:0px 10px 50px 15px;
+	alignment-baseline: central;	
+
+}
+
+
+/* These are the colored headings boxes inside of each grey box */
+
+.chicken_box{
+	background-color: lightpink;
+	float: right;
+}
+
+
+
+.beef_box{
+	background-color: tomato;
+	color: white;
+	float:right;
+}
+
+
+.Sushi_box{
+	background-color: lemonchiffon;
+	float: right;	
+}
+.mini_div{
+	margin-left: 5px;
+}
+
